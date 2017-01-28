@@ -1,11 +1,10 @@
-#Configuration
 (config.json)
 
-1. `token` : Bot token to login through server.js
+1. `token` : Bot token
 
 2. `sqlType`: See [Database Selection](#database-selection)
 
-3. `menuColor` The color of the Discord embed menu commands. Must be in [*integer* format](https://www.shodor.org/stella2java/rgbint.html).
+3. `menuColor` The color of the Discord embed menu commands. Must be in [*integer*](https://www.shodor.org/stella2java/rgbint.html) format.
 
 4. `timezone`: (Optional) This is for the {date} tag customization. If left blank, the date will be in UTC. To add your own timezone, use a timezone from [this list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) under the TZ column.
 
