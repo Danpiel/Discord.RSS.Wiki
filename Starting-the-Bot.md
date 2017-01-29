@@ -11,8 +11,7 @@
     * If you are hosting a private bot with a small number of feeds, use the former. 
     * If handling a massive number number of feeds, use the latter. This will prevent the RSS process from hanging up the command handling.
 
-8. Add feeds either via Discord, or manually create and customize in the sources folder.
-9. Optionally use the the [forever module](https://www.npmjs.com/package/forever) to automatically restart the bot if it crashes.
+8. Optionally use the the [forever module](https://www.npmjs.com/package/forever) to automatically restart the bot if it crashes.
 
 
 
