@@ -4,7 +4,7 @@
 3. Use `npm install` in the directory from terminal/command prompt/etc.
 4. Create and get a bot token from https://discordapp.com/developers/applications/me.
     * "My Apps" -> "New App" -> Enter "App Name" and optionally add an app icon -> "Create App" -> "Create a Bot User"
-5. Copy "Client ID" and [generate an invite link](https://discordapi.com/permissions.html) to invite the bot to your server.
+5. Copy "Client ID" from that page and [generate an invite link](https://discordapi.com/permissions.html) to invite the bot to your server.
 6. Put your bot token and change whatever else you need to in [config.json](#configuration).
 
 7. Start the bot. There are two ways of starting the bot - one is just using `node server.js`. The other, where the functionality is broken up into two parts, is using both `node cmdServer.js` and `node rssServer.js`.
