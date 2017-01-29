@@ -9,8 +9,7 @@ The bottom is an example of what would be in a guild source file, for example `.
     //feed #1 settings
     "name": "there",
     "link": "http://somewebsite.com/rss/",
-    "channel": "website-feeds",
-    "roleSubscriptions": ["2347356456", "2354346"]
+    "channel": "website-feeds"
     }, {
     //feed #2 settings
     }, {
@@ -18,3 +17,27 @@ The bottom is an example of what would be in a guild source file, for example `.
     }]
 }
 ```
+
+An example with customization would be 
+
+```javascript
+	"sources": {
+		"name": "there",
+		"link": "http://somewebsite.com/rss/",
+		"channel": "website-feeds",
+		"filters": {
+			"title": ["important", "key phrase"],
+			"description": "stuff"
+		},
+		"embedMessage": {
+			"enabled": 1,
+			"properties": {
+				"color": 8816239,
+				"message": "My embed message is here!"
+			}
+		},
+		"maxAge": 3
+	}
+```
+
+All customizable feed properties are manageable through Discord, except `maxAge`.
