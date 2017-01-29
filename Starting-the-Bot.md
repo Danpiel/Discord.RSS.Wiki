@@ -6,7 +6,11 @@
     * "My Apps" -> "New App" -> Enter "App Name" and optionally add an app icon -> "Create App" -> "Create a Bot User"
 5. Copy "Client ID" and [generate an invite link](https://discordapi.com/permissions.html) to invite the bot to your server.
 6. Put your bot token and change whatever else you need to in [config.json](#configuration).
-7. Start the bot by `node server.js` in terminal/command prompt/etc.
+
+7. Start the bot. There are two ways of starting the bot - one is just using `node server.js`. The other, where the functionality is broken up into two parts, is using both `node cmdServer.js` and `node rssServer.js`.
+    * If you are hosting a private bot with a small number of feeds, use the former. 
+    * If handling a massive number number of feeds, use the latter. This will prevent the RSS process from hanging up the command handling.
+
 8. Add feeds either via Discord, or manually create and customize in the sources folder.
 9. Optionally use the the [forever module](https://www.npmjs.com/package/forever) to automatically restart the bot if it crashes.
 
