@@ -1,3 +1,5 @@
+###Table of Contents
+
 1. [Starting the Bot](https://github.com/synzen/Discord.RSS/wiki/Starting-the-Bot)
 
 2. [Configuration](https://github.com/synzen/Discord.RSS/wiki/Configuration)
