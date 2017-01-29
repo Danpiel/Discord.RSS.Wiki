@@ -12,6 +12,7 @@
 4. **[Feed Customization](https://github.com/synzen/Discord.RSS/wiki/Feed-Customization)**
     * [Custom Message]()
     * [Custom Embed]()
+    * [Timezone]()
 
 
 5. **[Subscriptions]()**
