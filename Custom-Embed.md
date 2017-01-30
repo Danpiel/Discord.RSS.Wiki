@@ -11,7 +11,7 @@ An embed can normally contain [many items](https://cdn.discordapp.com/attachment
 
 |Property|Description|
 |-----|-----|
-|Color|Must be in [integer format](https://www.shodor.org/stella2java/rgbint.html)).|
+|Color|Must be in [integer format](https://www.shodor.org/stella2java/rgbint.html).|
 |Author Title|The text at the top of the embed.|
 |Message|The main message of the embed.|
 |Footer Text|The small text at the bottom of the embed.|
