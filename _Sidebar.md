@@ -7,10 +7,11 @@
 
 3. **[Discord Commands](https://github.com/synzen/Discord.RSS/wiki/Discord-Commands)**
 
+4. **[Feed Filters](https://github.com/synzen/Discord.RSS/wiki/Feed-Filters)**
 
-4. **[Feed Customization](https://github.com/synzen/Discord.RSS/wiki/Feed-Customization)**
+5. **[Feed Customization](https://github.com/synzen/Discord.RSS/wiki/Feed-Customization)**
     * [Custom Message](https://github.com/synzen/Discord.RSS/wiki/Custom-Message)
     * [Custom Embed](https://github.com/synzen/Discord.RSS/wiki/Custom-Embed)
     * [Timezone](https://github.com/synzen/Discord.RSS/wiki/Timezone)
 
-5. **[Subscriptions]()**
+6. **[Subscriptions]()**
