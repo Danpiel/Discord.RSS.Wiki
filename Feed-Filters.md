@@ -15,4 +15,4 @@ Filters can be added to control what feeds get sent to Discord. There are four c
 }
 ```
 
-wip
+The filters are essentially "OR" filters. This meaning that if *any* of the words defined in the filters are found in the feed in their respective categories, then it will pass the filter and be sent to Discord.
