@@ -10,7 +10,7 @@
 
 5. `sqlType`: See [Database Selection](#database-selection)
 
-6. `menuColor` The color of the Discord embed menu commands. Must be in [*integer* format](https://www.shodor.org/stella2java/rgbint.html).
+6. `menuColor`: The color of the Discord embed menu commands. Must be in [*integer* format](https://www.shodor.org/stella2java/rgbint.html).
 
 7. `timezone`: (Optional) This is for the {date} tag customization. By default the date will be in UTC if left blank. To add your own timezone, use a timezone from [this list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) under the TZ column.
 
