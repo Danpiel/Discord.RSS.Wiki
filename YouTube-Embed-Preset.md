@@ -24,3 +24,7 @@
   }
 }
 ```
+
+Example:
+
+![](http://i.imgur.com/o52242m.png)
