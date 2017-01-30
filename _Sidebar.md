@@ -18,4 +18,8 @@
     * [Global Subscription](https://github.com/synzen/Discord.RSS/wiki/Global-Subscriptions)
     * [Filtered Subscription](https://github.com/synzen/Discord.RSS/wiki/Filtered-Subscriptions)
 
+7. **[Presets](https://github.com/synzen/Discord.RSS/wiki/Presets)**
+    * [YouTube Embed](https://github.com/synzen/Discord.RSS/wiki/YouTube-Embed-Preset)
+    * [Twitter Embed](https://github.com/synzen/Discord.RSS/wiki/Twitter-Embed-Preset)
+
 7. Author's Note
