@@ -14,4 +14,6 @@
     * [Custom Embed](https://github.com/synzen/Discord.RSS/wiki/Custom-Embed)
     * [Timezone](https://github.com/synzen/Discord.RSS/wiki/Timezone)
 
-6. **[Subscriptions]()**
+6. **[Role Subscriptions](https://github.com/synzen/Discord.RSS/wiki/Role-Subscriptions)**
+    * [Global Subscriptions](https://github.com/synzen/Discord.RSS/wiki/Global-Subscriptions)
+    * [Filtered Subscriptions](https://github.com/synzen/Discord.RSS/wiki/Filtered-Subscriptions)
