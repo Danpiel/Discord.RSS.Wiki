@@ -17,3 +17,5 @@
 6. **[Role Subscriptions](https://github.com/synzen/Discord.RSS/wiki/Role-Subscriptions)**
     * [Global Subscriptions](https://github.com/synzen/Discord.RSS/wiki/Global-Subscriptions)
     * [Filtered Subscriptions](https://github.com/synzen/Discord.RSS/wiki/Filtered-Subscriptions)
+
+7. Author's Note
