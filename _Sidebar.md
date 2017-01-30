@@ -15,7 +15,7 @@
     * [Timezone](https://github.com/synzen/Discord.RSS/wiki/Timezone)
 
 6. **[Role Subscriptions](https://github.com/synzen/Discord.RSS/wiki/Role-Subscriptions)**
-    * [Global Subscriptions](https://github.com/synzen/Discord.RSS/wiki/Global-Subscriptions)
-    * [Filtered Subscriptions](https://github.com/synzen/Discord.RSS/wiki/Filtered-Subscriptions)
+    * [Global Subscription](https://github.com/synzen/Discord.RSS/wiki/Global-Subscriptions)
+    * [Filtered Subscription](https://github.com/synzen/Discord.RSS/wiki/Filtered-Subscriptions)
 
 7. Author's Note
