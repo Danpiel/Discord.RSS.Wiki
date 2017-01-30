@@ -4,6 +4,8 @@
 
 **Author Avatar URL:** https://g.twimg.com/dev/img/marketing/twitter-for-websites/header-logo.png
 
+**Thumbnail URL: ** https://www.somesite.com/brand-logo.png
+
 **message:** {description}
 
 **footerText:** {date}
@@ -16,9 +18,13 @@
     "color": 3447003,
     "authorTitle": "Twitter Name",
     "authorAvatarURL": "https://g.twimg.com/dev/img/marketing/twitter-for-websites/header-logo.png",
-    "thumbnailURL": "https://pbs.twimg.com/profile_images/797287460199862272/mG1KEwQ2.jpg",
+    "thumbnailURL": "https://www.somesite.com/brand-logo.png",
     "message": "{description}",
     "footerText": "{date}"
   }
 }
 ```
+
+Example:
+
+![](http://i.imgur.com/QAFjSxL.png)
