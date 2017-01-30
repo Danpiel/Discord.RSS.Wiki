@@ -3,7 +3,7 @@
 1. **[Starting the Bot](https://github.com/synzen/Discord.RSS/wiki/Starting-the-Bot)**
 
 2. **[Configuration](https://github.com/synzen/Discord.RSS/wiki/Configuration)**
-    * [RSS Profiles](https://github.com/synzen/Discord.RSS/wiki/RSS-Profiles)
+    * [RSS Guild Profiles](https://github.com/synzen/Discord.RSS/wiki/RSS-Guild-Profiles)
 
 3. **[Discord Commands](https://github.com/synzen/Discord.RSS/wiki/Discord-Commands)**
 
