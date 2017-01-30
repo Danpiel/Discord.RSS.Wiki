@@ -5,7 +5,7 @@ The main message of the feed can be edited in the guild profile as
 		"name": "there",
 		"link": "http://somewebsite.com/rss/",
 		"channel": "website-feeds",
-                "message": "My Message here!"
+"message": "My Message here!"
 	}
 ```
 
