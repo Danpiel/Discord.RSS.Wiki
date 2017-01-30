@@ -18,3 +18,5 @@ An embed can normally contain [many items](https://cdn.discordapp.com/attachment
 |Thumbnail URL|A picture to be shown on the right side of the embed.|
 |URL|The URL clicking on the Author Title will lead to.|
 |Author Avatar URL|The small icon to the left of the Author Title. This will only be shown if Author Title is set.|
+
+**Adding an embed will override the embed that Discord normally sends with links (see first image)**
