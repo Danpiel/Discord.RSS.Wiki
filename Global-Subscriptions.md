@@ -14,4 +14,4 @@ I have defined "global subscriptions" as roles that get mentioned on *every* art
 
 **Adding a global subscription to a role will remove all of its filtered subscriptions, if they exist.**
 
-**For subscriptions to show up on messages, the tag `{subscriptions}` must be used.**
+**For the role mentions to show up on messages, the tag `{subscriptions}` must be used.**
