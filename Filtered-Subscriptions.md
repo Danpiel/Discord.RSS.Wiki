@@ -32,3 +32,7 @@
 Each role is again identified by their ID. If directly editing the config, `roleName` can be omitted since the bot will check the role names and whether they match on startup. 
 
 The filter formatting is the same as feed filters.
+
+**Adding a filtered subscription to a role will remove all of its global subscription, if it exists.**
+
+**For the role mentions to show up on messages, the tag `{subscriptions}` must be used.**
