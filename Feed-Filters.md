@@ -7,10 +7,12 @@ Filters can be added to control what feeds get sent to Discord. There are four c
 	"channel": "website-feeds",
     "message": "My Message here!",
       "filters": {
-        "Title": ["Title Filter Here!"],
+        "Title": ["Title Filter Here!", "another one~"],
         "Description": ["Description Filter!"],
         "Summary": ["Summary Filter Here!"],
         "Author": ["Author Filter!"]
       }
 }
 ```
+
+wip
