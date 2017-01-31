@@ -41,3 +41,5 @@ An example with customization would be
 ```
 
 All customizable feed properties are manageable through Discord, except `maxAge`.
+
+**If directly editing, [check the validity](http://jsonlint.com/) of your edits.**
