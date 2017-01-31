@@ -1,1 +1,1 @@
-How to make embeds look pretty!
+My personal settings for embeds!
