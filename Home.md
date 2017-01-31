@@ -1,4 +1,3 @@
-Wiki is WIP
 
 ###Table of Contents
 
