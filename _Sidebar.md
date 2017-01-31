@@ -27,4 +27,3 @@
     * [Author's Note](https://github.com/synzen/Discord.RSS/wiki/Author's-Note)
     * [RSS Process](https://github.com/synzen/Discord.RSS/wiki/RSS-Process)
     * [Integrate Into Existing Bot](https://github.com/synzen/Discord.RSS/wiki/Integrate-Into-Existing-Bot)
-    * [Repurposing the Bot](https://github.com/synzen/Discord.RSS/wiki/Repurposing-the-Bot)
