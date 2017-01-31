@@ -1,1 +1,1 @@
-I have provided some presets that make your feeds look pretty!
+How to make embeds look pretty!
