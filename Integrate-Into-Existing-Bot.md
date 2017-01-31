@@ -1,0 +1,1 @@
+Simply use the same bot token as your current bot!
