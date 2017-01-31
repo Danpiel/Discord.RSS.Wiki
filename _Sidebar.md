@@ -23,4 +23,4 @@
     * [YouTube Embed](https://github.com/synzen/Discord.RSS/wiki/YouTube-Embed-Preset)
     * [Twitter Embed](https://github.com/synzen/Discord.RSS/wiki/Twitter-Embed-Preset)
 
-7. [Author's Note](https://github.com/synzen/Discord.RSS/wiki/Authors-Note)
+7. **[Author's Note](https://github.com/synzen/Discord.RSS/wiki/Author's-Note)**
