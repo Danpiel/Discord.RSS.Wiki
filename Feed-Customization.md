@@ -12,3 +12,5 @@ I have implemented tags that can be used in custom feeds. I define tags as phras
 
 
 Putting tags such as {title}, {description}, {summary}, {author}, {link}, {image}, {date} will add the feed's respective information into the text. This can either be in the main message, or in the embed. 
+
+As a side note, the tags are not actually the feed article's direct properties. They often contain HTML and other unsightly things unfit to be sent as human-readable feeds, thus the bot does some translating to clean up the content. I have done my best with the translation to make the tags, particularly {summary} and {description}, reflect the actual source if you were to go the feed's link. If you see any issues with such translations, don't hesitate to let me know.
