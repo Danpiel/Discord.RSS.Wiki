@@ -4,7 +4,7 @@
 
 **Author Avatar URL:** https://g.twimg.com/dev/img/marketing/twitter-for-websites/header-logo.png
 
-**Thumbnail URL: ** https://www.somesite.com/brand-logo.png
+**Thumbnail URL:** https://www.somesite.com/brand-logo.png
 
 **message:** {description}
 
