@@ -6,7 +6,7 @@ and bots can create their own:
 
 ![](http://i.imgur.com/svtnnBl.png)
 
-An embed can normally contain [many items](https://cdn.discordapp.com/attachments/84319995256905728/252292324967710721/embed.png), however for the sake of simplicity I have left out several embed options simply because it is most likely too confusing. The embed properties that can be customized for a feed are:
+An embed can normally contain [many items](https://cdn.discordapp.com/attachments/84319995256905728/252292324967710721/embed.png), however for the sake of simplicity I have left out several embed options simply because it is most likely too confusing/has no need for so many options. The embed properties that can be customized for a feed are:
 
 
 |Property|Description|
