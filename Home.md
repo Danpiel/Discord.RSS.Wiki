@@ -5,7 +5,7 @@
 
 2. **[Configuration](https://github.com/synzen/Discord.RSS/wiki/Configuration)**
     * [RSS Guild Profiles](https://github.com/synzen/Discord.RSS/wiki/RSS-Guild-Profiles)
-    * [Profile Management](https://github.com/synzen/Discord.RSS/wiki/RSS-Guild-Profiles)
+    * [Profile Management](https://github.com/synzen/Discord.RSS/wiki/Profile-Management)
 
 3. **[Discord Commands](https://github.com/synzen/Discord.RSS/wiki/Discord-Commands)**
 
