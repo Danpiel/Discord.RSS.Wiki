@@ -16,11 +16,11 @@
 1. `npm install forever -g` in terminal.
     * add `sudo` before npm if you have permission issues.
 2. `cd Discord.RSS` assuming your folder is named Discord.RSS
-3. `forever start server.js`
+3. `forever start rssServer.js`
 
 ###Realtime Tracking
 1. Use `forever list` to show the process index, shown as `[#]` to the left.
-2. `forever logs # -f` - you'll now be shown a short recent history of the bot logs.
+2. `forever logs # -f` - you'll now be shown a short recent history of the bot logs, and any further
 
 ###Complete History of Bot
 1. 1. Use `forever list` to show the `logfile` location as `/my/location/.forever/randomLetters.log`.
