@@ -26,11 +26,11 @@
 
 13. `maxFeeds`: The maximum amount of feeds each server is allowed to have.
 
-14. `discordChannelLog`: (Channel ID) Log guild addition/deletion in a Discord channel.
+14. `discordChannelLog`: (Channel ID string) Log guild addition/deletion in a Discord channel.
 
 15. `defaultGame`: The game that the bot will show when logged in.
 
-16. `controllerIds`: Array of user IDs who have access to `~setgame` and `~stats`. ex: `[id1, id2]`
+16. `controllerIds`: Array of user IDs (must be strings) who have access to `~setgame` and `~stats`. ex: `[id1, id2]`
 
 ##Database Selection
 It can be set to `sqlite3` or `mysql`. sqlite3 should be easier to work with since it doesn't require any credentials, and the database is created in the same directory as server.js. If you are working with a large number of servers, `mysql` may be the more ideal choice as you may encounter a "database is busy/closed" error while using sqlite3 because it is constantly writing to the database while the bot is on its schedule and sqlite3 cannot have simultaneous connections.
