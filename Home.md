@@ -1,3 +1,4 @@
+A "guild" is a server.
 
 ###Table of Contents
 
