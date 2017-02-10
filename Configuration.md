@@ -12,7 +12,7 @@
 |`botSettings`|`menuColor`|Integer|The color of the Discord embed menu commands. Must be in [*integer* format](https://www.shodor.org/stella2java/rgbint.html).|
 |`feedManagement`|`sqlType`|String|See [Database Selection](#database-selection)|
 |`feedManagement`|`databaseName`|String|Name of database that will be created and used.|
-|`feedManagement`|`enableBackups`|Boolean|Enable automatic backups creation and restoration in sources/backups folder. Manually adding a backup file will also work, given that the file name is the guild's ID. If you manually edit your sources and for some reason do not check your the validity of your JSON configuration through something like [JSONLint](http://jsonlint.com/), do not enable this as it will overwrite your invalid file.|
+|`feedManagement`|`enableBackups`|Boolean|See [Database Selection](#automatic-backup-system)|
 |`feedSettings`|`refreshTimeMinutes`|Integer|Check for new feeds regularly at every interval specified in minutes.|
 |`feedSettings`|`Timezone`|String|(Optional) This is for the {date} tag customization. By default the date will be in UTC if left blank. To add your own timezone, use a timezone from [this list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) under the TZ column.|
 |`feedSettings`|`maxFeeds`|Integer|The maximum amount of feeds each server is allowed to have.|
@@ -28,3 +28,8 @@ Should you wish to try and use MySQL, it is quite simple. If you already have it
 If you don't already have MySQL installed on your system, [install it](https://dev.mysql.com/downloads/mysql/) and set up the root account password. Then follow the same steps as above. The bot will handle everything else.
 
 SQLite on the otherhand requires no setup. It will create the database in the same directory as server.js on first startup.
+
+##Automatic Backup System
+The automatic backup system will handle the creation and restoration of corrupted guild profiles in the sources folder with the backups found in in sources/backups folder. Manually adding a backup file will also work, given that the file name is the guild's ID. If you manually edit your sources and for some reason do not check your the validity of your JSON configuration through something like JSONLint, do not enable this as it will overwrite your invalid file.
+
+If this is disabled, only warnings will show that it is an invalid guild profile and will not grab any feeds for that particular guild.
