@@ -2,4 +2,11 @@ I don't advise tampering with the `name` of feeds. Everytime a new feed is initi
 
 In general if you don't want trash lying around in your database don't remove manually remove feeds from `sources`. Instead, remove them from Discord with the command `rssremove` as explained in the section below. Deleting the channel or removing the bot from the server will also purge any traces of the guild from the configs and the database.
 
-If the database is getting too large, deleting the database is perfectly fine. The bot will create a new database, just as it did on first startup, and all articles of all feeds of that time will be stored as "seen".Do not truncate any feed tables - this will lead to all articles of a feed being marked as unseen, and everything will be spammed into Discord on the next cycle. Dropping feed tables while the bot is running will mark that feed, at least until the bot is restarted, as a deleted feed and will not grab any feeds. A warning will be shown in this case on every cycle.
+
+###Managing the Database
+
+If the database is getting too large, dropping/deleting the database is perfectly fine. The bot will create a new database, just as it did on first startup, and all articles of all feeds of that time will be stored as "seen".
+
+Do not truncate any feed tables - this will lead to all articles of a feed being marked as unseen, and everything will be spammed into Discord on the next cycle.
+
+Dropping feed tables while the bot is running will mark that feed, at least until the bot is restarted, as a deleted feed and will not grab any feeds. A warning will be shown in this case on every cycle.
