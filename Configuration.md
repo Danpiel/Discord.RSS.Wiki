@@ -10,8 +10,6 @@ config.json
 
 `Array[String]` - A container indicated by `[` and `]` with multiple strings inside, separated by commas. Example: `["mythinghere", "mysecondthinghere"]`
 
-
-#Commands
 |Category|Config|Type|Description|
 |----|----|----|----|
 |`logging`|`logDates`|Boolean|Show date on every console log.|
