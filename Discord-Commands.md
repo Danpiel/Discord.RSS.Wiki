@@ -1,4 +1,4 @@
-Each command must start with the prefix defined in config.json (literally the first line, set to default as `~`).
+**Each command must start with the prefix defined in config.json.**
 
 Each command will open a menu for you to select the RSS in that channel to modify, except `rssadd` which must have a link after it. Whatever you're trying to customize, if it is a non-URL/number field, you can use tags to add the feed's information. The user must have Manage Channels permission to use the commands.
 
