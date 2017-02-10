@@ -5,7 +5,7 @@
 4. Create and get a bot token from https://discordapp.com/developers/applications/me.
     * "My Apps" -> "New App" -> Enter "App Name" and optionally add an app icon -> "Create App" -> "Create a Bot User"
 5. Copy "Client ID" from that page and [generate an invite link](https://discordapi.com/permissions.html) to invite the bot to your server.
-6. Put your bot token and change whatever else you need to in [config.json](#configuration).
+6. Put your bot token and change whatever else you need to in [config.json](https://github.com/synzen/Discord.RSS/wiki/Configuration).
 7. Start the bot by `node rssServer.js`.
 8. Optionally use the the [forever module](https://www.npmjs.com/package/forever) to automatically restart the bot if it crashes.
 
