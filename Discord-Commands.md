@@ -4,7 +4,7 @@ Each command will open a menu for you to select the RSS in that channel to modif
 
 |Command|User Type|Opens Menu?|Description|
 |-------|----------|-----------|----|
-|setgame|Bot Controller|No|Change the 'game' the bot is playing.|
+|setgame|Bot Controller|No|Change the 'game' the bot is playing. Setting it to `null` will remove the game.|
 |stats|Bot Controller|No|Show current number of guilds and users that the bot is currently in.|
 |rsshelp|Server Manager|No|List all the commands.|
 |rssadd|Server Manager|No|Add feeds for that specific channel.|
