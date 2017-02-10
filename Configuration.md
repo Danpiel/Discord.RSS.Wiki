@@ -12,7 +12,7 @@
 |`botSettings`|`menuColor`|Integer|The color of the Discord embed menu commands. Must be in [*integer* format](https://www.shodor.org/stella2java/rgbint.html).|
 |`feedManagement`|`sqlType`|String|See [Database Selection](#database-selection)|
 |`feedManagement`|`databaseName`|String|Name of database that will be created and used.|
-|`feedManagement`|`enableBackups`|Boolean|See [Database Selection](#automatic-backup-system)|
+|`feedManagement`|`enableBackups`|Boolean|See [Backup System](#automatic-backup-system)|
 |`feedSettings`|`refreshTimeMinutes`|Integer|Check for new feeds regularly at every interval specified in minutes.|
 |`feedSettings`|`Timezone`|String|(Optional) This is for the {date} tag customization. By default the date will be in UTC if left blank. To add your own timezone, use a timezone from [this list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) under the TZ column.|
 |`feedSettings`|`maxFeeds`|Integer|The maximum amount of feeds each server is allowed to have.|
