@@ -6,9 +6,9 @@
 
 **Thumbnail URL:** https://www.somesite.com/brand-logo.png
 
-**message:** {description}
+**Message:** {description}
 
-**footerText:** {date}
+**Footer Text:** {date}
 
 
 ```javascript
