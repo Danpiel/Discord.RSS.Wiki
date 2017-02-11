@@ -6,9 +6,9 @@
 
 **Thumbnail URL:** {thumbnail}
 
-**message:** {description}
+**Message:** {description}
 
-**footerText:** {date}
+**Footer Text:** {date}
 
 
 ```javascript
