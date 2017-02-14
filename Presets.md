@@ -1,1 +1,1 @@
-My personal settings for embeds!
+My personal settings for embeds! However, most feeds with just {description} or {summary} should suffice.
