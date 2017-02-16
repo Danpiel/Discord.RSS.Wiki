@@ -3,3 +3,5 @@ Subscriptions are basically mentions for users who want to be notified when a ne
 Global mentions subscribed roles on every new article. 
 
 Filtered mentions subscribed roles on custom-defined filters specific to that role.
+
+**Roles that are subscribed must be able to be mentioned by everyone - this is handled in role settings.**
