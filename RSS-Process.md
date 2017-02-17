@@ -11,7 +11,7 @@ A table will be created with the name `(channelID)_(number)(metaLink)`, and all 
 ##Feed Grabbing
 On each cycle, it will request the feed, look at *every* article link in the feed, cross reference the feed's table in the database and see if the article exists in the feed's table. If not, it will send to Discord.
 
-##Removing a Feed
+##Feed Removal
 The feed's table entry will be deleted, and its source will be removed from its guild profile.
 
 ##Restarting
