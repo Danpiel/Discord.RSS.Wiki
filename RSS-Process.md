@@ -12,7 +12,7 @@ A table will be created with the name `(channelID)_(number)(metaLink)`, and all 
 On each cycle, it will request the feed, look at *every* article link in the feed, cross reference the feed's table in the database and see if the article exists in the feed's table. If not, it will send to Discord.
 
 ##Removing a Feed
-The feed's table entry and its source will be deleted from its guild profile.
+The feed's table entry will be deleted, and its source will be removed from its guild profile.
 
 ##Restarting
 The bot will cross reference all the articles from the feed link with the stored links in the database, and account for new feeds:
