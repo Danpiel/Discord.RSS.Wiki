@@ -1,14 +1,14 @@
 The exact process how the RSS process is outlined in rss.js and initializeall.js, but here is a general outline:
 
-##First-Time Startup
+##Startup
 Starting the bot for the first time (every time) will go through the initialization process. The database will be created if it doesn't already exist, either in the same directory as the main file for `sqlite3` or for `mysql` in its own directory. It will check for any changes in all of its guild profiles, and account for unseen feeds according to the configuration set in config.json.
 
 Once the initialization process has finished, the commands module will then be started as a child process and Discord commands can then be used.
 
-##Adding a Feed 
+##Feed Addition
 A table will be created with the name `(channelID)_(number)(metaLink)`, and all the articles of that feed will be inserted into the table as "seen" since they are all old articles. The feed is also added into the guild's profile with `name`, `channel`, and `link`.
 
-##Grabbing Feeds
+##Feed Grabbing
 On each cycle, it will request the feed, look at *every* article link in the feed, cross reference the feed's table in the database and see if the article exists in the feed's table. If not, it will send to Discord.
 
 ##Removing a Feed
