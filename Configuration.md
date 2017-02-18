@@ -10,24 +10,43 @@ config.json
 
 `Array[String]` - A container indicated by `[` and `]` with multiple strings inside, separated by commas. Example: `["mythinghere", "mysecondthinghere"]`
 
-|Category|Config|Type|Description|
-|----|----|----|----|
-|`logging`|`logDates`|Boolean|Show date on every console log.|
-|`logging`|`discordChannelLog`|String|ID of the Discord channel where guild additions/removal notifications will be sent.|
-|`botSettings`|`token`|String|Bot token to login.|
-|`botSettings`|`prefix`|String|Prefix for [Discord commands](https://github.com/synzen/Discord.RSS/wiki/Discord-Commands)|
-|`botSettings`|`defaultGame`|String|The game that the bot will show as playing on startup.|
-|`botSettings`|`controllerIds`|Array[String]|User IDs (must be strings) who have access to Bot Controller commands.|
-|`botSettings`|`menuColor`|Integer|The color of the Discord embed menu commands. Must be in [*integer* format](https://www.shodor.org/stella2java/rgbint.html).|
-|`feedManagement`|`sqlType`|String|See [Database Selection](#database-selection)|
-|`feedManagement`|`databaseName`|String|Name of database that will be created and used.|
-|`feedManagement`|`enableBackups`|Boolean|See [Backup System](#automatic-backup-system)|
-|`feedSettings`|`refreshTimeMinutes`|Integer|Check for new feeds regularly at every interval specified in minutes.|
-|`feedSettings`|`timezone`|String|(Optional) This is for the {date} tag customization. By default the date will be in UTC if left blank. To add your own timezone, use a timezone from [this list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) under the TZ column.|
-|`feedSettings`|`maxFeeds`|Integer|The maximum amount of feeds each server is allowed to have.|
-|`feedSettings`|`sendOldMessages`|Boolean|Send unseen messages that were not caught during bot downtime after it has restarted - this may result in message spam.|
-|`feedSettings`|`defaultMaxAge`|Integer|The max aged feed in days that the bot will grab on startup if it unexpectedly stops.|
-|`feedSettings`|`defaultMessage`|String|If no custom message is defined for a specific feed, this will be the message the feed will fallback to.|
+##Logging
+
+|Config|Type|Description|
+|----|----|----|
+|`logDates`|Boolean|Show date on every console log.|
+|`discordChannelLog`|String|ID of the Discord channel where guild additions/removal notifications will be sent.|
+
+##Bot Settings
+
+|Config|Type|Description|
+|----|----|----|
+|`token`|String|Bot token to login.|
+|`prefix`|String|Prefix for [Discord commands](https://github.com/synzen/Discord.RSS/wiki/Discord-Commands)|
+|`defaultGame`|String|The game that the bot will show as playing on startup.|
+|`controllerIds`|Array[String]|User IDs (must be strings) who have access to Bot Controller commands.|
+|`menuColor`|Integer|The color of the Discord embed menu commands. Must be in [*integer* format](https://www.shodor.org/stella2java/rgbint.html).|
+
+##Feed Management
+
+|Config|Type|Description|
+|----|----|----|
+|`sqlType`|String|See [Database Selection](#database-selection)|
+|`databaseName`|String|Name of database that will be created and used.|
+|`enableBackups`|Boolean|See [Backup System](#automatic-backup-system)|
+
+
+##Feed Settings
+
+Config|Type|Description|
+|----|----|----|
+|`refreshTimeMinutes`|Integer|Check for new feeds regularly at every interval specified in minutes.|
+|`timezone`|String|(Optional) This is for the {date} tag customization. By default the date will be in UTC if left blank. To add your own timezone, use a timezone from [this list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) under the TZ column.|
+|`timeFormat`|String|(Optional) Format how {date} is shown. See http://momentjs.com/docs/#/displaying/format/. Whatever is here, will be inside `.format(<timeFormat>)`.
+|`maxFeeds`|Integer|The maximum amount of feeds each server is allowed to have.|
+|`sendOldMessages`|Boolean|Send unseen messages that were not caught during bot downtime after it has restarted - this may result in message spam.|
+|`defaultMaxAge`|Integer|The max aged feed in days that the bot will grab on startup if it unexpectedly stops.|
+|`defaultMessage`|String|If no custom message is defined for a specific feed, this will be the message the feed will fallback to.|
 
 
 ##Database Selection
