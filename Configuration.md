@@ -35,21 +35,7 @@ config.json
 |`databaseName`|String|Name of database that will be created and used.|
 |`enableBackups`|Boolean|See [Backup System](#automatic-backup-system)|
 
-
-##Feed Settings
-
-Config|Type|Description|
-|----|----|----|
-|`refreshTimeMinutes`|Integer|Check for new feeds regularly at every interval specified in minutes.|
-|`timezone`|String|(Optional) This is for the {date} tag customization. By default the date will be in UTC if left blank. To add your own timezone, use a timezone from [this list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) under the TZ column.|
-|`timeFormat`|String|(Optional) Format how {date} is shown. See http://momentjs.com/docs/#/displaying/format/. Whatever is here, will be inside `.format(<timeFormat>)`.
-|`maxFeeds`|Integer|The maximum amount of feeds each server is allowed to have.|
-|`sendOldMessages`|Boolean|Send unseen messages that were not caught during bot downtime after it has restarted - this may result in message spam.|
-|`defaultMaxAge`|Integer|The max aged feed in days that the bot will grab on startup if it unexpectedly stops.|
-|`defaultMessage`|String|If no custom message is defined for a specific feed, this will be the message the feed will fallback to.|
-
-
-##Database Selection
+###Database Selection
 It can be set to `sqlite3` or `mysql`. sqlite3 should be easier to work with since it doesn't require any credentials, and the database is created in the same directory as server.js. If you are working with a large number of servers, `mysql` may be the more ideal choice as you may encounter a "database is busy/closed" error while using sqlite3 because it is constantly writing to the database while the bot is on its schedule and sqlite3 cannot have simultaneous connections.
 
 Should you wish to try and use MySQL, it is quite simple. If you already have it installed on your system, `npm install mysql` in the server.js directory, set up your credentials in mysqlCred.json, change the `sqltype` to `mysql` in config.json, and you're done!
@@ -58,7 +44,20 @@ If you don't already have MySQL installed on your system, [install it](https://d
 
 SQLite on the otherhand requires no setup. It will create the database in the same directory as server.js on first startup.
 
-##Automatic Backup System
+###Automatic Backup System
 The automatic backup system will handle the creation and restoration of corrupted guild profiles in the sources folder with the backups found in in sources/backups folder. Manually adding a backup file will also work, given that the file name is the guild's ID. If you manually edit your sources and for some reason do not check your the validity of your JSON configuration through something like JSONLint, do not enable this as it will overwrite your invalid file.
 
 If this is disabled, only warnings will show that it is an invalid guild profile and will not grab any feeds for that particular guild.
+
+
+##Feed Settings
+
+Config|Type|Description|
+|----|----|----|
+|`refreshTimeMinutes`|Integer|Check for new feeds regularly at every interval specified in minutes.|
+|`timezone`|String|(Optional) This is for the {date} tag customization. By default the date will be in UTC if left blank. To add your own timezone, use a timezone from [this list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) under the TZ column.|
+|`timeFormat`|String|(Optional) Format how {date} is shown. See [details here](http://momentjs.com/docs/#/displaying/format/). Whatever is here, will be inside `.format(<timeFormat>)`.
+|`maxFeeds`|Integer|The maximum amount of feeds each server is allowed to have.|
+|`sendOldMessages`|Boolean|Send unseen messages that were not caught during bot downtime after it has restarted - this may result in message spam.|
+|`defaultMaxAge`|Integer|The max aged feed in days that the bot will grab on startup if it unexpectedly stops.|
+|`defaultMessage`|String|If no custom message is defined for a specific feed, this will be the message the feed will fallback to.|
