@@ -37,6 +37,6 @@ Usable by anyone in guild.
 |-------|-----------|----|
 |subme|Role Name|Enabled/disabled by "Manage Roles" permission. Shows a list of feeds with their roles* that can be added to the user, then add that role to the user.
 |unsubme|Role Name|Enabled/disabled by "Manage Roles" permission. Shows a list of feeds with their respective roles that can be removed from the user, then remove that role from the user.
-\*Roles that are *beneath* the bot's role order, and are subscribed to feeds.
+\*Roles that are *beneath* the bot's role order (handled in role settings), and are subscribed to feeds.
 
-\*\*Roles that are *beneath* the bot's role order.
+\*\*Roles that are *beneath* the bot's role order (handled in role settings).
