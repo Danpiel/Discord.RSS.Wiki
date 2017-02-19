@@ -57,7 +57,7 @@ Config|Type|Description|
 |`refreshTimeMinutes`|Integer|Check for new feeds regularly at every interval specified in minutes. Default is 15.|
 |`timezone`|String|This is for the {date} tag customization. By default the date will be in UTC if left blank. To add your own timezone, use a timezone from [this list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) under the TZ column.|
 |`timeFormat`|String|Format how {date} is shown. See [details here](http://momentjs.com/docs/#/displaying/format/). Whatever is here, will be inside `.format(<timeFormat>)` Default is `ddd, D MMMM YYYY, h:mm A z`.
-|`maxFeeds`|Integer|The maximum amount of feeds each server is allowed to have. Default is unlimited.|
-|`sendOldMessages`|Boolean|Send unseen messages that were not caught during bot downtime after it has restarted - this may result in message spam.|
+|`maxFeeds`|Integer|The maximum amount of feeds each server is allowed to have. Default is `0` (unlimited).|
+|`sendOldMessages`|Boolean|Send unseen messages that were not caught during bot downtime after it has restarted - this may result in message spam. Default is `false`.|
 |`defaultMaxAge`|Integer|The max aged feed in days that the bot will grab on startup if it unexpectedly stops. Default is 1.|
 |`defaultMessage`*|String|If no custom message is defined for a specific feed, this will be the message the feed will fallback to.|
