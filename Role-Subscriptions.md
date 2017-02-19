@@ -4,4 +4,7 @@ Global mentions subscribed roles on every new article.
 
 Filtered mentions subscribed roles on custom-defined filters specific to that role.
 
+For the role mentions to show up on messages, the tag `{subscriptions}` must be used.
+
+
 **Roles that are subscribed must be able to be mentioned by everyone - this is handled in role settings.**
