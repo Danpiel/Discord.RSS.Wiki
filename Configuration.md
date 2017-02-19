@@ -1,4 +1,4 @@
-config.json. Any configs in **bold** indicates that it is *required*.
+Any configs in **bold** indicates that it is *required*.
 
 ####Definitions:
 
