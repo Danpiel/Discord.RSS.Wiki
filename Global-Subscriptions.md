@@ -13,5 +13,3 @@ I have defined "global subscriptions" as roles that get mentioned on *every* art
 `roleSubscriptions` must be an array, with the elements being the role ID. This is probably not possible to directly edit the individual roles seeing that there is no easy way to get the role IDs without a bot, thus using `rssroles` is best.
 
 **Adding a global subscription to a role will remove all of its filtered subscriptions, if they exist.**
-
-**For the role mentions to show up on messages, the tag `{subscriptions}` must be used.**
