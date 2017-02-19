@@ -1,4 +1,4 @@
-config.json
+config.json. Any configs in **bold** indicates that it is *required*.
 
 ####Definitions:
 
@@ -21,8 +21,8 @@ config.json
 
 |Config|Type|Description|
 |----|----|----|
-|`token`|String|Bot token to login.|
-|`prefix`|String|Prefix for [Discord commands](https://github.com/synzen/Discord.RSS/wiki/Discord-Commands)|
+|`token`*|String|Bot token to login.|
+|`prefix`*|String|Prefix for [Discord commands](https://github.com/synzen/Discord.RSS/wiki/Discord-Commands)|
 |`defaultGame`|String|The game that the bot will show as playing on startup.|
 |`controllerIds`|Array[String]|User IDs (must be strings) who have access to Bot Controller commands.|
 |`menuColor`|Integer|The color of the Discord embed menu commands. Must be in [*integer* format](https://www.shodor.org/stella2java/rgbint.html).|
@@ -31,8 +31,8 @@ config.json
 
 |Config|Type|Description|
 |----|----|----|
-|`sqlType`|String|See [Database Selection](#database-selection)|
-|`databaseName`|String|Name of database that will be created and used.|
+|`sqlType`*|String|See [Database Selection](#database-selection)|
+|`databaseName`*|String|Name of database that will be created and used.|
 |`enableBackups`|Boolean|See [Backup System](#automatic-backup-system)|
 
 ###Database Selection
@@ -54,10 +54,10 @@ If this is disabled, only warnings will show that it is an invalid guild profile
 
 Config|Type|Description|
 |----|----|----|
-|`refreshTimeMinutes`|Integer|Check for new feeds regularly at every interval specified in minutes.|
-|`timezone`|String|(Optional) This is for the {date} tag customization. By default the date will be in UTC if left blank. To add your own timezone, use a timezone from [this list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) under the TZ column.|
-|`timeFormat`|String|(Optional) Format how {date} is shown. See [details here](http://momentjs.com/docs/#/displaying/format/). Whatever is here, will be inside `.format(<timeFormat>)` If none is specified, it will use the default `ddd, D MMMM YYYY, h:mm A z`.
-|`maxFeeds`|Integer|The maximum amount of feeds each server is allowed to have.|
+|`refreshTimeMinutes`|Integer|Check for new feeds regularly at every interval specified in minutes. Default is 15.|
+|`timezone`|String|This is for the {date} tag customization. By default the date will be in UTC if left blank. To add your own timezone, use a timezone from [this list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) under the TZ column.|
+|`timeFormat`|String|Format how {date} is shown. See [details here](http://momentjs.com/docs/#/displaying/format/). Whatever is here, will be inside `.format(<timeFormat>)` Default is `ddd, D MMMM YYYY, h:mm A z`.
+|`maxFeeds`|Integer|The maximum amount of feeds each server is allowed to have. Default is unlimited.|
 |`sendOldMessages`|Boolean|Send unseen messages that were not caught during bot downtime after it has restarted - this may result in message spam.|
-|`defaultMaxAge`|Integer|The max aged feed in days that the bot will grab on startup if it unexpectedly stops.|
-|`defaultMessage`|String|If no custom message is defined for a specific feed, this will be the message the feed will fallback to.|
+|`defaultMaxAge`|Integer|The max aged feed in days that the bot will grab on startup if it unexpectedly stops. Default is 1.|
+|`defaultMessage`*|String|If no custom message is defined for a specific feed, this will be the message the feed will fallback to.|
