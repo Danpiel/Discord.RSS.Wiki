@@ -1,6 +1,6 @@
 #Setup
 1. Install [Node.js](https://nodejs.org/en/).
-2. Clone files into a directory.
+2. Clone bot files into a directory.
 3. Use `npm install` in the directory from terminal/command prompt/etc.
 4. Create and get a bot token from https://discordapp.com/developers/applications/me.
     * "My Apps" -> "New App" -> Enter "App Name" and optionally add an app icon -> "Create App" -> "Create a Bot User"
