@@ -6,7 +6,7 @@ Any configs in **bold** indicates that it is *required*.
 
 `Boolean` - Either `true`/`false`, or `1`/`0`.
 
-`String` - Text that must be enclosed with quotes (`"`).
+`String` - Text that must be enclosed with quotes (`"my text"`).
 
 `Array[String]` - A container indicated by `[` and `]` with multiple strings inside, separated by commas. Example: `["mythinghere", "mysecondthinghere"]`
 
