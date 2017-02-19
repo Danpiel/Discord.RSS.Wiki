@@ -1,4 +1,4 @@
-Any configs in **bold** indicates that it is *required*.
+Any configs with an asterisk `*` beside it indicates that it is *required*.
 
 ####Definitions:
 
