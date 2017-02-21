@@ -8,7 +8,7 @@ Any configs with an asterisk `*` beside it indicates that it is *required*.
 
 `String` - Text that must be enclosed with quotes (`"my text"`).
 
-`Array[String]` - A container indicated by `[` and `]` with multiple strings inside, separated by commas. Example: `["mythinghere", "mysecondthinghere"]`
+`Array[String]` - A container enclosed by `[` and `]` with multiple strings inside, separated by commas. Example: `["mythinghere", "mysecondthinghere"]`
 
 ##Logging
 
@@ -54,7 +54,7 @@ If this is disabled, only warnings will show that it is an invalid guild profile
 
 Config|Type|Description|
 |----|----|----|
-|`refreshTimeMinutes`|Integer|Check for new feeds regularly at every interval specified in minutes. Default is 15.|
+|`refreshTimeMinutes`|Integer|Check for new feeds regularly at every interval specified in minutes. Default is `15`.|
 |`timezone`|String|This is for the {date} tag customization. By default the date will be in UTC if left blank. To add your own timezone, use a timezone from [this list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) under the TZ column.|
 |`timeFormat`|String|Format how {date} is shown. See [details here](http://momentjs.com/docs/#/displaying/format/). Whatever is here, will be inside `.format(<timeFormat>)` Default is `ddd, D MMMM YYYY, h:mm A z`.
 |`maxFeeds`|Integer|The maximum amount of feeds each server is allowed to have. Default is `0` (unlimited).|
