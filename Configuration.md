@@ -25,7 +25,7 @@ Any configs with an asterisk `*` beside it indicates that it is *required*.
 |`prefix`*|String|Prefix for [Discord commands](https://github.com/synzen/Discord.RSS/wiki/Discord-Commands)|
 |`defaultGame`|String|The game that the bot will show as playing on startup.|
 |`controllerIds`|Array[String]|User IDs who have access to Bot Controller commands.|
-|`menuColor`|String|The color of the Discord embed menu commands, between 0 and 16777215. Must be in [*integer* color](https://www.shodor.org/stella2java/rgbint.html). Default is `7833753`.|
+|`menuColor`|String|The color of the Discord embed menu commands, between 0 and 16777215. Must be an [*integer* color](https://www.shodor.org/stella2java/rgbint.html). Default is `7833753`.|
 
 ##Feed Management
 
