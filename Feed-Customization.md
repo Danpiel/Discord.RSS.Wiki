@@ -7,7 +7,7 @@ I have implemented tags that can be used in custom feeds. I define tags as phras
 |{description}|Definition of "Description" varies from feed to feed.|
 |{summary}|Definition of "Summary" varies from feed to feed.|
 |{link}|Link to the article.|
-|{image}|Sometimes a feed image is available.|
+|{imageX}|X replaced with a number 1-9. Sometimes feed image(s) are available - they will be shown with rsstest.|
 |{date}|The published date of the article. Timezone can be [customized](https://github.com/synzen/Discord.RSS/wiki/Timezone).|
 
 
