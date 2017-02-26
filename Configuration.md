@@ -16,7 +16,7 @@ Any configs with an asterisk `*` beside it indicates that it is *required*.
 |----|----|----|
 |`logDates`|Boolean|Show date on every console log.|
 |`discordChannelLog`|String|ID of the Discord channel where guild additions/removal notifications will be sent.|
-|`sendConnectErrs`|Boolean|Show connection failures to URLs.|
+|`sendConnectErrs`|Boolean|Show connection failures to on requests to feed URLs.|
 
 ##Bot Settings
 
