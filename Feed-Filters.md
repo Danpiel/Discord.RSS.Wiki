@@ -1,4 +1,4 @@
-Filters can be added to control what feeds get sent to Discord. There are four categories for which filters can be applied to: Title, Description, Summary, Author and Tag. 
+Filters can be added to control what feeds get sent to Discord. There are four categories for which filters can be applied to: Title, Description, Summary, Author and Tag (AKA categories, set by feed author). 
 
 ```javascript
 "sources": {
