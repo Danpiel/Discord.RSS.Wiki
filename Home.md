@@ -1,4 +1,4 @@
-A "guild" is a server. In essence the only things that must be set up are the configs indicated with an asterisk (*), then you can simply start adding feeds with rssadd.
+A "guild" is a server. In essence the only things that must be set up are the configs indicated with an asterisk (*), then you can simply start adding feeds with rssadd. Everything else is optional for customization.
 
 ###Table of Contents
 
