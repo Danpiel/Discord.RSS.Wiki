@@ -22,8 +22,7 @@ The bottom is an example of what would be in a guild source file, for example `.
 An example with customization would be 
 
 ```javascript
-	"sources": {
-		"name": "there",
+	"feedName": {
 		"link": "http://somewebsite.com/rss/",
 		"channel": "website-feeds",
 		"filters": {
