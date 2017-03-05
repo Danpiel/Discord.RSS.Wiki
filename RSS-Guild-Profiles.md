@@ -5,17 +5,17 @@ The bottom is an example of what would be in a guild source file, for example `.
 ```javascript
 "name": "My First Guild!",
 "id": "1234567890",
-"feed1Name": {
-    //feed #1 settings
-    "link": "http://somewebsite.com/rss/",
-    "channel": "website-feeds"
-    }, 
-"feed2Name": {
-    //feed #2 settings
-    }, 
-"feed3Name": {
-    //feed #3 settings
-    }
+"sources": {
+  "feed1Name": {
+      "link": "http://somewebsite.com/rss/",
+      "channel": "website-feeds"
+  }, 
+  "feed2Name": {
+      //feed #2 settings
+  }, 
+  "feed3Name": {
+      //feed #3 settings
+  }
 }
 ```
 
