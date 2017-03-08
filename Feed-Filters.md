@@ -16,3 +16,5 @@ Filters can be added to control what feeds get sent to Discord. There are four c
 ```
 
 The filters are essentially "OR" filters. This meaning that if *any* of the words defined in the filters are found in the feed in their respective categories, then it will pass the filter and be sent to Discord.
+
+Any filters starting with tilde (~) will be a broad search where if it's found *anywhere* in the property it will pass (including inside words). Ex: `~here` will be triggered for the word `there`. To add a tilde to the beginning of the world without having it as a broad search, use `\~` to escape the tilde.
