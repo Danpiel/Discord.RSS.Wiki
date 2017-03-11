@@ -10,4 +10,4 @@ If the database is getting too large, dropping/deleting the database is perfectl
 
 Do not truncate any feed tables - this will lead to all articles of a feed being marked as unseen, and everything will be spammed into Discord on the next cycle.
 
-Dropping feed tables while the bot is running will mark that feed, at least until the bot is restarted, as a deleted feed and will not grab any feeds. A warning will be shown in this case on every cycle.
+Dropping feed tables while the bot is running will mark that feed, at least until the bot is restarted (where it will go through initialization again), as a deleted feed and will not grab any feeds. A warning will be shown in this case on every cycle.
