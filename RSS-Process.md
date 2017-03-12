@@ -6,7 +6,7 @@ Starting the bot for the first time (every time) will go through the initializat
 Once the initialization process has finished, the commands module will then be started as a child process and Discord commands can then be used.
 
 ##Feed Addition
-A table will be created with the name `(channelID)_(number)(metaLink)`, and all the articles of that feed will be inserted into the table as "seen" since they are all old articles. The feed is also added into the guild's profile with `name`, `channel`, and `link`.
+A table will be created with the name `(randomNum)_(metaLink)`, and all the articles of that feed will be inserted into the table as "seen" since they are all old articles. The feed is also added into the guild's profile with `name`, `channel`, and `link`.
 
 ##Feed Grabbing
 On each cycle, it will request the feed, look at *every* article link in the feed, cross reference the feed's table in the database and see if the article exists in the feed's table. If not, it will send to Discord.
