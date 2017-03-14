@@ -29,3 +29,31 @@
 ###Stopping the Bot
 1. Use `forever list` to show the process index, shown as `[#]` to the left.
 2. `forever stop #`
+
+#Using systemd
+
+1. Create unit file in `/etc/systemd/system/discord-rss.service` with contents
+
+```
+[Unit]
+Description=Discord RSS bot
+
+[Service]
+# Path to Discord.Rss, change it to your needs
+WorkingDirectory=/opt/discord-rss/
+# Use full path to nodejs, can find it with: which node
+ExecStart=/usr/bin/node /opt/discord-rss/rssServer.js
+Restart=always
+# Remove User if starting service as root
+User=discord-rss
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=discord-rss
+
+[Install]
+WantedBy=multi-user.target
+```
+2. Reload systemd to take new configuration `sudo systemctl daemon-reload`
+3. Start it with `sudo systemctl start discord-rss`
+4. Enable autostart with `sudo systemctl enable discord-rss`
+5. Logs can be checked with `sudo journalctl -fu discord-rss`
